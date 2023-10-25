@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    padding: 0% ;
+    margin: 0% ;
+    color: white;
+}
+
+img.circle-image{
+    border-radius: 60%;
+}
+
+#toplogo{
+    background-color: black;
+    color: white;
+}
+a.nav:hover{
+    
+    color: black;
+}
+a.nav:active{
+    color: rgba(126, 118, 118, 0.253);
+}
+a.nav{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    margin: 0%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    
+    background-color:  rgba(126, 118, 118, 0.253);
+    
+
+}
+
+div.main{
+    background-attachment:fixed; 
+   
+
+
+    
+    
+}
+
+

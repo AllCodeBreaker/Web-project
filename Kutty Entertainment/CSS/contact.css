@@ -1,0 +1,21 @@
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color :rgb(146, 129, 129);
+}
+p{
+    color: black;
+}
+#contact{
+    height: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../Images/box-2071537_640.webp);
+}
+
+
+
+

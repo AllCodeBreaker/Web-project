@@ -1,0 +1,17 @@
+#aboutus{
+    height: 600px;
+    text-align: center;
+    background-image: url(../Images/vinyl-2241789_640.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* float:right; */
+}
+
+a{
+    color: white;
+    text-decoration: none ;
+}
+a:hover{
+    color: rgb(202, 174, 174);
+}
+
