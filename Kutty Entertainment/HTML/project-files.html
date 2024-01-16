@@ -8,7 +8,7 @@
     <link rel="icon" href="../Images/new_logo.jpg">
     <meta name="author"  content="Allwin" />
     <meta name="description" content="Blender and photoshop Projects for Free Download  " />
-    
+    <link rel="stylesheet" href="../CSS/project-files.css">
     <style>
         .mail{
             border-radius: 10px; 
@@ -48,13 +48,89 @@
             <a href="project-files.html" class="nav" title="Project files">Project files</a>
         </nav>
     </div>
+   
     <div class="main">
+
+        <div class="select-project" id="select">
+                <br>
+                <a href="adobe-photoshop.html" class="select-button red" onclick="displayProject('adobe-photoshop');"><span class="select-name">ADOBE PHOTOSHOP</span></a>
+
+                <a href="adobe-after-effects.html"  class="select-button grn" onclick="displayProject('adobe-after-effects');"><span class="select-name" >ADOBE AFTER EFFECTS</span></a>
+
+                <a href="adobe-premiere-pro.html" class="select-button " onclick="displayProject('adobe-premiere-pro');"><span class="select-name" >ADOBE PREMIERE PRO</span></a>
+
+                <a href="fl-studio.html" class="select-button " onclick="displayProject('fl-studio');"><span class="select-name" >FL STUDIO</span></a>
+
+                <a href="blender.html" class="select-button " onclick="displayProject('blender');"><span class="select-name">BLENDER</span></a>
+
+        </div>
+
+
+        <!-- <input type="button" value="previous" onclick="displayNormal();"> -->
+<!-- 
+        <div id="adobe-photoshop" style="display: none;">
+                photoshop
+
+        </div>
+
+        <div id="adobe-after-effects" style="display: none;">
+                AF
+
+        </div>
+
+        <div id="adobe-premiere-pro" style="display: none;"> 
+
+            PRE PRO
+        </div>
+
+        <div id="fl-studio" style="display: none;">
+
+                FL 
+
+        </div>
+
+        <div id="blender" style="display: none;">
+
+            BLENDER 
+
+        </div> -->
+
+      
+<!-- 
+        <a href="#" onclick="displayProject();" id="button">display</a>
+
+        <script>
+            let pro_id = ['adobe-photoshop',"adobe-after-effects","adobe-premiere-pro" ,"fl-studio" ,"blender"] ;
+
+            function displayProject(id){
+                alert(id) ;
+                let project = document.getElementById(id).style ;
+                if(project.display === "none"){
+                    project.display = "block" ;
+                    document.getElementById('select').style.display = "none" ;
+                    document.getElementById('pre-button').style.display = "inline" ;
+                }
+            }
+            function displayNormal(){
+                // 0 <= i < 6 ; 
+                
+                for(let i =0 ; i<6; i++){
+                    document.getElementById(pro_id[i]).style.display = "none"
+                }
+                document.getElementById('select').style.display = "block" ;
+                document.getElementById('pre-button').style.display = "none" ;
+            }
+        </script>
+
+ -->
+
+
+
+
+
+
         
     </div>
-
-
-
-
 
 
 

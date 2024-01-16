@@ -1,0 +1,43 @@
+#select{
+    padding: 10px;
+}
+
+
+.select-button{
+    text-align: center;
+    background-color: red;
+    width: 50px;
+    height: 100px ;
+    padding: 100px;
+    border: 3px solid ;
+    
+
+}
+
+.select-name{
+    color: white;
+     
+}
+
+.select-project{
+     display: flex ;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+    
+
+}
+
+.select-button:hover{
+    background-color: rgb(145, 47, 47);
+    border-radius: 10px;
+
+}
+
+.back-button{
+    color: red; 
+    padding:  15px ;
+
+}
+
+

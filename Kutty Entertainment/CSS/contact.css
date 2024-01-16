@@ -1,19 +1,19 @@
 a{
-    color: rgb(0, 0, 0);
+    color: white  ;
     text-decoration: none;
 }
 a:hover{
     color :rgb(146, 129, 129);
 }
 p{
-    color: black;
+    color: white
 }
 #contact{
     height: 500px;
     text-align: center;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../Images/box-2071537_640.webp);
+    /* background-image: url(../Images/box-2071537_640.webp); */
 }
 
 
