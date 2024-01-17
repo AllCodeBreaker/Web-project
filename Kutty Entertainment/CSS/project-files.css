@@ -1,17 +1,30 @@
 #select{
-    padding: 10px;
+    padding: 5px;
 }
 
-
 .select-button{
-    /* text-align: center; */
-    background-color: red;
-    width: 100px;
-    height: 50% px ;
+    text-align: center;
+    /* background-color: red; */
+    /* width: 100px; */
+    /* height: 50% px ; */
     padding: 60px;
-    border: 3px solid ;
-    
+    /* border: 3px solid ; */
+     
 
+}
+.box{
+   
+    background-color: red;
+    color: white ;
+    padding: 10px;
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+
+}
+.box:hover{
+    background-color: rgb(128, 88, 14);
+    font-size: 16px;
 }
 
 .select-name{
@@ -28,11 +41,7 @@
 
 }
 
-.select-button:hover{
-    background-color: rgb(145, 47, 47);
-    border-radius: 10px;
 
-}
 
 .back-button{
     color: red; 
@@ -41,9 +50,9 @@
 }
 
 
-@media screen and (max-width:720px) { 
+/* @media screen and (min-width:720px) {  */
     
-    .select-button{
+    /* .select-button{
         width: 25px;
         height: 2px ;
         padding: 60px;
@@ -51,7 +60,18 @@
         border-radius: 10px ;
         background-color: red;
 
-    }
+     } 
+    .select-project{
+        display: inline-flex ;
+        /* flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center ; 
+       
    
+   }
+   .select-button{
+    
+   }
 } 
-
+ 
+*/ 
